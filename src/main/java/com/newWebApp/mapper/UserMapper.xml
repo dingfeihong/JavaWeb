@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.newWebApp.mapper.UserMapper">
-  <cache type="com.newWebApp.redisUtil.RedisCache"/> <!-- *映射语句 -->
+  <!--<cache type="com.newWebApp.redisUtil.RedisCache"/> &lt;!&ndash; *映射语句 &ndash;&gt;-->
 
   <resultMap id="BaseResultMap" type="com.newWebApp.pojo.User">
     <!--
